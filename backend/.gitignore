@@ -1,0 +1,17 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+/venv
+
+# Ignore environment variables file
+.env
+
+# Ignore other files
+*.log
+
+# bat file for app and test 
+.run_app.bat  
+.run_test.bat 
