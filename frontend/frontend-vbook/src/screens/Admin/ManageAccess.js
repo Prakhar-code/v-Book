@@ -13,9 +13,6 @@ function ManageAccess() {
     const [role, setRole] = useState('');
     const [error, setError] = useState('');
     const [isLoading, setIsLoading] = useState(false);
-    //extension bisect running
-    //simple test round 2
-    // simple test tound 3
     const handleInputChange = (event) => {
         const value = event.target.value;
     
