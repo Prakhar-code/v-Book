@@ -1,0 +1,81 @@
+.CitMap {
+    display: grid;
+    grid-template-columns: 200px 750px 200px; /* Equal width columns */
+    column-gap: 10px; /* Space between columns */
+    row-gap: 0px; /* Optional: space between rows */
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0 4% 0 10px;    
+  }
+ 
+  .tip {
+    color: #777;
+    margin-top: -16px;
+    margin-bottom: 32px;
+  }
+  
+  .rooms {
+    text-align: left;
+    font-size: 12px;
+    margin-left: 10px;
+    /* width: 30%; */
+  }
+  
+  .square {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(0, 0, 255);
+    margin-right: 10px;
+    margin-bottom: -1px;
+    border-radius: 3px;
+  }
+  
+  .room-link {
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    padding: 12px 12px;
+    margin-top: 4px;
+    border-radius: 2px;
+    /* width: auto; */
+  }
+  
+  .room-link.active {
+    border-color: #333;
+    font-weight: 600;
+  }
+  
+  .room {
+    fill-opacity: 0.5;
+    stroke-opacity: 0;
+    stroke-width: 2;
+  }
+  
+  .room.active {
+    fill-opacity: 0.2;
+    stroke-opacity: 1;
+  }
+  
+  .kitchen {
+    fill: #80ff00;
+    stroke: #00ff15;
+  }
+  
+  .office {
+    fill: #ff0000;
+    stroke: #ff0000;
+    opacity: 1;
+
+  }
+  
+  .wc {
+    fill: #f6ff00;
+    stroke: #ffae00;
+  }
+  
+  .meeting {
+    fill: #00a2ff;
+    stroke: #2600ff;
+  }
+  

@@ -1,0 +1,209 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.verification-box {
+  background-color: #d8dfff;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #001970;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.heading {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.input-box {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.verify-button,
+.cancel-button {
+  margin-bottom: 15px;
+}
+
+.verify-button button,
+.cancel-button button {
+  background-color: #b6ff82;
+  color: black;
+}
+
+.verify-button:hover {
+  background-color: #010f6f;
+  border: 1px solid black;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #001970 !important; 
+  color: white !important; 
+}
+
+.cancel-button:hover {
+  background-color: white !important;
+  color: #010f6f !important;
+  border: 1px solid black !important; 
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+} */
+
+
+.body-container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.verify-email-container {
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #010f6f;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.verification-div {
+  background-color: #D1D9FF;
+  height: 400px;
+  width: 550px;
+  margin-right: 130px;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.verification-div h4 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.verification-div p {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  color: green;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.warning {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.otp-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.otp-input input {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.otp-input input:focus {
+  border: 1.5px solid #010f6f;
+}
+
+.verify-submit button {
+  width: 30%;
+  color: white;
+  background-color: #010f6f;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 12px 20px;
+  margin-top: 10px;
+  font-size: medium;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.verify-submit button:hover {
+  background-color: #D1D9FF;
+  color: #010f6f;
+  border: 1px solid black; /* Ensuring border remains black on hover */
+}
+
+.timer-div {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.verify-email-container .back-button{
+  cursor: pointer;
+  justify-items: left;
+  display: flex;
+  font-size: xx-large;
+  width: 5%;
+  height: 5%;
+
+}
+
+.back-button{
+  margin-right: 120px;
+  color: #D1D9FF;
+}

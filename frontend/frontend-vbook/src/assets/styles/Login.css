@@ -1,0 +1,189 @@
+.body-container{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.vbook-container{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #D1D9FF;
+    border-radius: 25px;
+    margin-top: 20px;
+
+
+}
+
+.login-div .warning{
+    color:red;
+    font-size: 10px;
+}
+.vbook-container .vbook-space {
+    background-color: #010f6f;
+    height: 400px;
+    width: 350px;
+    margin-right: 50px;
+    border-radius: 25px;
+    
+}
+
+.vbook-container .login-div {
+    background-color: #D1D9FF;
+    height: 400px;
+    width: 350px;
+    margin-left: 100px;
+    border-radius: 25px;
+    
+}
+
+.login-div h4{
+    text-align: center;
+    font-size: 25px;
+}
+
+.vbook-space p{
+    margin-top: 50px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vbook-space h3{
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    
+}
+
+.vbook-space p .one{
+    margin-top: 50px;
+    color: white;
+    justify-content: center;
+    text-align: left;
+    padding-left:80px;
+    font-size: 20px;
+    font-style: italic;   
+}
+
+.vbook-space p .two{
+    color: white;
+    justify-content: center;
+    text-align: right;
+    padding-right: 80px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.vbook-space p .three{
+    color: white;
+    justify-content: center;
+    text-align: left;
+    padding-left: 80px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.vbook-space p .four{
+    color: white;
+    justify-content: center;
+    text-align: right;
+    padding-right: 100px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.login-div .email-box{
+    display: flex;
+    border-bottom: 1.5px solid black;
+    margin-bottom: 20px;
+}
+
+.login-div .password-box{
+    display: flex;
+    border-bottom: 1.5px solid black;
+    margin-bottom: 20px;
+}
+
+.email-box .user-icon-input{
+    margin-top: 10px;
+}
+
+.password-box .eye-icon-input{
+    margin-top: 10px;
+}
+
+.email-input{
+    width: 100%;
+}
+
+.password-input{
+    width: 100%;
+    
+}
+.email-input .user-icon-input{
+    margin-top: 50px;
+}
+
+.password-input .eye-icon-input{
+    margin-top: 50px;
+}
+
+.password-input{
+    border-bottom-width: 1.5px;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    border:  1px;
+    outline: #D1D9FF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #D1D9FF;
+}
+
+.login-submit button {
+    
+    width: 80%;
+    color: white;
+    background-color: #010f6f;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.login-submit button:hover {
+    background-color: #D1D9FF;
+    color: #010f6f;
+    border: 1px solid black; /* Ensuring border remains black on hover */
+}
+
+.hyperlinks-div .forgot-password-div, .hyperlinks-div .signup-div {
+    font-size: 13px;
+}
+
+.hyperlinks-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot-password-div a{
+    margin-top: 20px;
+}
+
+.signup-div p{
+    /* margin-bottom: 30px; */
+    margin-top:0px ;
+}

@@ -1,0 +1,100 @@
+.body-container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.vbook-container {
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #D1D9FF;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.vbook-container .vbook-space {
+    background-color: #010f6f;
+    height: 400px;
+    width: 350px;
+    margin-right: 50px;
+    border-radius: 25px;
+}
+
+.vbook-container .registration-div {
+    background-color: #D1D9FF;
+    height: 500px;
+    width: 350px;
+    margin-left: 100px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.registration-div h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.vbook-space p {
+    margin-top: 50px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vbook-space h3 {
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.registration-input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid transparent; 
+    box-sizing: border-box;
+    background-color: #D1D9FF;
+    transition: border 0.3s;
+}
+
+
+.registration-input:focus,
+.registration-input:active,
+.registration-input:not(:placeholder-shown) {
+    border: 2px solid #010f6f; 
+}
+
+.error {
+    color: red; 
+    font-size: 12px; 
+}
+
+.register-button{
+    width: 80%;
+    color: white;
+    background-color: #010f6f;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 12px 20px;
+    margin: 0 auto; 
+    margin-top: 20px; 
+    font-size: medium;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #D1D9FF;
+    color: #010f6f;
+    border: 1px solid black; 
+}
