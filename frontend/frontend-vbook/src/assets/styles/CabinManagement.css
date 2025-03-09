@@ -1,0 +1,74 @@
+
+.cabin-management-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.cabin-management-wrapper {
+  width: 80%; 
+  height: 80%;
+  background-color: #D1D9FF; 
+  padding: 30px; 
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.cabin-management-title {
+  color: #010f6f; 
+  margin-bottom: 20px;
+  font-size: 24px; 
+  text-align: center;
+}
+
+.cabin-selection-wrapper {
+  width: 70%;
+  background-color: #D1D9FF;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cabin-selection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cabin-select-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cabin-select {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.edit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  width: 150px; 
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 100px; 
+  margin-right: 100px;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+}

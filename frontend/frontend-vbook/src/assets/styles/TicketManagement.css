@@ -1,0 +1,177 @@
+/* Main Container */
+.cabin-management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9fc;
+}
+.back-button button{
+    width: 2%;
+    margin-left: 10px;
+    background-color: white;
+    font-size: larger;
+}
+
+.back-button{
+    width: 20px;
+    background-color: #f5f5f5;
+}
+
+.ticket-management-container{
+    margin-top:5%;
+    padding-left: 80px;
+    padding-right: 80px; 
+}
+
+/* Wrapper Styles */
+.cabin-management-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #E6E6FA; 
+    padding: 2rem; 
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Typography */
+.ticket-management-title {
+    color: #010f6f; 
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+/* Cabin Selection */
+.cabin-selection-wrapper {
+    width: 100%;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.cabin-selection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.cabin-select {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.cabin-select:focus {
+    outline: none;
+    border-color: #010f6f;
+    box-shadow: 0 0 0 3px rgba(1, 15, 111, 0.1);
+}
+
+/* Buttons */
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover {
+    background-color: rgba(230, 230, 250, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-block;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-approved {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-rejected {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .cabin-management-wrapper,
+    .cabin-selection-wrapper {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    th, td {
+        padding: 0.75rem;
+    }
+}

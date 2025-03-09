@@ -1,0 +1,71 @@
+
+.cabin-details {
+    flex: 1;
+    border: 1px solid #D1D9FF;
+    padding: 20px;
+    /* margin-left: 20px; */
+
+    border-radius: 8px;
+    align-self: flex-start;
+    position: relative;
+    top: 10px;
+    background-color: #F8F9FF;
+    width: 100%;
+  }
+  
+  .cabin-header {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #010f6f;
+    border-bottom: 1px solid #D1D9FF;
+    padding-bottom: 10px;
+  }
+  
+  .status-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 8px;
+  }
+  
+ 
+  
+
+  
+
+  
+  .cabin-facilities{
+    display: grid;
+    gap: 15px;
+      margin-left:-0.5rem;
+      text-align: left;
+      color: #010f6f;
+      
+  }
+  
+  
+  .facilities-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+   
+  }
+  
+  .facility-tag {
+    background-color: #D1D9FF;
+    color: #010f6f;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+  } 
+  .schedule-button
+  {
+    width:  100%; 
+    height: 40px;
+
+    margin: 10px 0;
+  }

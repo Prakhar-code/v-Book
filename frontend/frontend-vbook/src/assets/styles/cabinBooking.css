@@ -1,0 +1,374 @@
+/* Main container styles */
+.cabin-booking-container {
+  padding: 20px;
+  max-width: 1500px;
+  margin-left: 20px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  background-color: white;
+}
+
+.form-container {
+  flex: 0 50 60%;
+  margin-top: 25px;
+}
+
+
+.booking-header {
+  margin-bottom: 40px;
+}
+
+.booking-title {
+  margin-bottom: 20px;
+  color: #010f6f;
+  border-bottom: 2px solid #010f6f;
+  padding-bottom: 20px;
+  margin-left: -20px;
+}
+
+/* Form styles */
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width:700px;
+}
+
+.form-group2 {
+  margin: 10px 15px;
+}
+
+
+
+.form-group3 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 15px;
+}
+.form-group3 .form-label-value
+{
+  margin-left: 10px;
+  color: #003686;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+  font-weight: bold;
+  margin-left:  5px;
+  justify-content: left;
+  text-align: left;
+}
+
+
+.form-input, .form-select, .form-textarea {
+  width: 100%;
+  border: 1px solid #D1D9FF;
+  border-radius: 4px;
+  background-color: #F8F9FF;
+  outline: none; /* Remove the focus outline */
+}
+
+/* Remove the blue border on focus */
+.form-input:focus, .form-select:focus, .form-textarea:focus {
+  border: 1px solid #D1D9FF;
+  outline: none;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+
+.submit-button {
+  padding: 12px 20px;
+  background-color: #010f6f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 72%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #D1D9FF;
+}
+/* 
+
+.cabin-details {
+  flex: 0 0 30%;
+  border: 1px solid #D1D9FF;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 8px;
+  align-self: flex-start;
+  position: sticky;
+  top: 120px;
+  background-color: #F8F9FF;
+}
+
+.cabin-header {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #010f6f;
+  border-bottom: 1px solid #D1D9FF;
+  padding-bottom: 10px;
+}
+
+.status-indicator {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.cabin-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 15px;
+  color: #010f6f;
+  margin-left: -5.5rem;
+}
+
+.cabin-location {
+  margin-left: 15px;
+  color: #010f6f;
+  margin-left: -20rem;
+  margin-bottom: 10px;
+}
+
+
+.cabin-location-info{
+    margin-left: -2rem;
+}
+
+.cabin-facilities{
+    margin-left:-0.5rem;
+    text-align: left;
+    color: #010f6f;
+    
+}
+
+
+.facilities-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+ 
+}
+
+.facility-tag {
+  background-color: #D1D9FF;
+  color: #010f6f;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+} 
+*/
+
+/* Calendar page styles */
+.calendar-container {
+  padding: 20px;
+}
+
+.calendar-header {
+  margin-bottom: 20px;
+}
+
+.back-button-calendar {
+  padding: 8px 16px;
+  background-color: #666;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 1100px;
+  margin-bottom: 10px;
+}
+
+.calendar-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.booking-time-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.time-inputs {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.time-input-group {
+  flex: 1;
+}
+
+.time-input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #D1D9FF;
+  border-radius: 4px;
+  background-color: #F8F9FF;
+  outline: none;
+}
+
+.time-input-group input:focus {
+  border: 1px solid #D1D9FF;
+  outline: none;
+}
+
+.confirm-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.user-details-popup{
+  background-color: #93aaff;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* 
+.time-selection-popup {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  min-width: 250px;
+  margin-left: 25rem;
+  margin-top: 20rem;
+}
+
+.time-selection-popup input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.time-selection-popup button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.time-selection-popup button:first-of-type {
+  background: #4CAF50;
+  color: white;
+}
+
+.time-selection-popup button:last-of-type {
+  background: #f0f0f0;
+} */
+
+
+
+/* Popup Styles */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.time-selection-popup {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  min-width: 300px;
+  max-width: 90%;
+}
+
+.popup-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.time-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.time-input-group label {
+  font-weight: 500;
+}
+
+.time-input-group select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.confirm-btn,
+.cancel-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  flex: 1;
+}
+
+.confirm-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.confirm-btn:hover {
+  background-color: #45a049;
+}
+
+.cancel-btn {
+  background-color: #f0f0f0;
+}
+
+.cancel-btn:hover {
+  background-color: #e4e4e4;
+}
+
+
